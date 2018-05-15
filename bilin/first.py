@@ -1,7 +1,7 @@
 from appium import webdriver
 import time, random
-from bilin.config import get_send_str
-from bilin.swipeutil import SwipeUtils
+from appscript.bilin.config import get_send_str
+from appscript.bilin.swipeutil import SwipeUtils
 
 desired_caps = {}
 desired_caps['platformName'] = 'Android'
